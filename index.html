@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="imagem/piano.png" type="">
+
+    <title>Piano Online</title> <!-- Título da Página -->
+</head>
+<body>
+    <section class="piano">
+        <section class="controle">
+            <h1>Piano online</h1>
+
+            <!-- Interruptor para mostrar as teclas -->
+            <label class="interruptores--label">
+                <span class="interruptores"> 
+                    <span class="interruptores_botao"></span>
+                </span>
+                Mostrar as teclas <!-- Legenda -->
+                <input type="checkbox" class="caixa_de_selecao" hidden> <!-- É essencial para a interatividade e coleta de dados -->
+            </label>
+
+        </section> <!-- Fim dos controles -->
+
+        <section class="teclas_de_piano teclas-desativadas">
+            <!-- Teclas do piano -->
+            <div class="teclas brancas" data-nota="1"><span>TAB</span></div>
+            <div class="teclas pretas" data-nota="2"><span>1</span></div>
+            <div class="teclas brancas" data-nota="3"><span>q</span></div>
+            <div class="teclas pretas" data-nota="4"><span>2</span></div>
+            <div class="teclas brancas" data-nota="5"><span>w</span></div>
+            <div class="teclas brancas" data-nota="6"><span>e</span></div>
+            <div class="teclas pretas" data-nota="7"><span>4</span></div>
+            <div class="teclas brancas" data-nota="8"><span>r</span></div>
+            <div class="teclas pretas" data-nota="9"><span>5</span></div>
+            <div class="teclas brancas" data-nota="10"><span>t</span></div>
+            <div class="teclas pretas" data-nota="11"><span>6</span></div>
+            <div class="teclas brancas" data-nota="12"><span>y</span></div>
+            <div class="teclas brancas" data-nota="13"><span>u</span></div>
+            <div class="teclas pretas" data-nota="14"><span>8</span></div>
+            <div class="teclas brancas" data-nota="15"><span>i</span></div>
+            <div class="teclas pretas" data-nota="16"><span>9</span></div>
+            <div class="teclas brancas" data-nota="17"><span>o</span></div>
+            <div class="teclas brancas" data-nota="18"><span>p</span></div>
+            <div class="teclas pretas" data-nota="19"><span>-</span></div>
+            <div class="teclas brancas" data-nota="20"><span>[</span></div>
+            <div class="teclas pretas" data-nota="21"><span>=</span></div>
+            <div class="teclas brancas" data-nota="22"><span>]</span></div>
+            <div class="teclas pretas" data-nota="23"><span>&larr;</span></div>
+            <div class="teclas brancas" data-nota="24"><span>\</span></div>
+        </section>
+
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
